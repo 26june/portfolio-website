@@ -4,7 +4,7 @@ import "../../Styles/Navbar.css";
 
 export default function Navbar() {
   return (
-    <div>
+    <div className="Navbar">
       <Link className="home-button" to={"/"}>
         {/* <span className="home-button-icon"></span> */}
         <span className="material-symbols-outlined">home</span>
