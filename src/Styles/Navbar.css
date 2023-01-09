@@ -15,23 +15,29 @@ a {
 }
 
 .home-button,
-.project-button,
-.skills-button {
+.project-button {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
   gap: 10px 0px;
   height: 100px;
   width: 100px;
   z-index: 3;
   top: 10px;
+  right: 10px;
+}
+
+.home-button {
+  position: fixed;
+}
+
+.project-button {
+  position: absolute;
 }
 
 .home-button-icon,
-.project-button-icon,
-.skills-button-icon {
+.project-button-icon {
   width: 30px;
   height: 30px;
   border: 2px solid white;
@@ -46,16 +52,4 @@ a {
   color: #ff6f61;
 
   font-variation-settings: "FILL" 1, "wght" 200, "GRAD" 0, "opsz" 48;
-}
-
-.project-button {
-  right: 10px;
-}
-
-.skills-button {
-  right: 130px;
-}
-
-.home-button {
-  right: 250px;
 }

@@ -66,7 +66,7 @@ export default function Home() {
         <div className="left-content">
           <img src={require("../Assets/Images/gj.png")} alt="GJ ABORDO"></img>
           <h1>GJ ABORDO</h1>
-          <h2>JUNIOR SOFTWARE DEVELOPER</h2>
+          <h3>JUNIOR SOFTWARE DEVELOPER</h3>
           <ul>
             <li>
               <a href="https://github.com/26june">
@@ -84,7 +84,7 @@ export default function Home() {
       </div>
 
       <div className="right-section">
-        <Navbar></Navbar>
+        <Navbar currentPage={"home"}></Navbar>
         <div className="right-content">
           <h2>About Me!</h2>
           <p>
