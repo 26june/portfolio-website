@@ -86,11 +86,34 @@ export default function Home() {
       <div className="right-section">
         <Navbar currentPage={"home"}></Navbar>
         <div className="right-content">
-          <h2>About Me!</h2>
-          <p>
-            I am a mechatronics engineering student turned coding bootcamp
-            gradaute in order to pursue my love for coding!
-          </p>
+          <div>
+            <h2>About Me!</h2>
+            <p>
+              I am a mechatronics engineering student turned coding bootcamp
+              gradaute in order to pursue my love for coding!
+            </p>
+          </div>
+          <div>
+            <h2>Tech Stack:</h2>
+
+            <ul>
+              <li>Javascript</li>
+              <li>React</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Dart/Flutter</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>Axios</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+              <li>Jest</li>
+              <li>GitHub</li>
+              <li>Linux</li>
+              <li>Slack</li>
+              <li>Trello</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
