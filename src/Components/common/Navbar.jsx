@@ -5,21 +5,27 @@ import "../../Styles/Navbar.css";
 export default function Navbar() {
   return (
     <div className="Navbar">
-      <Link className="home-button" to={"/"}>
-        {/* <span className="home-button-icon"></span> */}
-        <span className="material-symbols-outlined">home</span>
+      <div className="home-button">
+        <Link to={"/"}>
+          {/* <span className="home-button-icon"></span> */}
+          <span className="material-symbols-outlined">home</span>
+        </Link>
         <p>HOME</p>
-      </Link>
+      </div>
 
-      <Link className="skills-button" to={"/skills"}>
-        <span className="material-symbols-outlined">settings</span>
+      <div className="skills-button">
+        <Link to={"/skills"}>
+          <span className="material-symbols-outlined">settings</span>
+        </Link>
         <p>SKILLS</p>
-      </Link>
+      </div>
 
-      <Link className="project-button" to={"/projects"}>
-        <span className="material-symbols-outlined">folder_open</span>
+      <div className="project-button">
+        <Link to={"/projects"}>
+          <span className="material-symbols-outlined">folder_open</span>
+        </Link>
         <p>PROJECTS</p>
-      </Link>
+      </div>
     </div>
   );
 }

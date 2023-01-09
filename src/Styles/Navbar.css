@@ -7,7 +7,6 @@ a {
   text-decoration: none;
   outline: none;
   background-color: transparent;
-  border: 1px solid black;
 }
 
 .material-symbols-outlined {
@@ -23,7 +22,7 @@ a {
   justify-content: center;
   align-items: center;
   position: absolute;
-  gap: 20px 0px;
+  gap: 10px 0px;
   height: 100px;
   width: 100px;
   z-index: 3;
@@ -41,7 +40,6 @@ a {
 
 .Navbar a:hover {
   cursor: pointer;
-  border: 1px solid #ff6f61;
 }
 
 .Navbar a:hover > .material-symbols-outlined {
