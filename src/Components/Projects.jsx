@@ -11,7 +11,8 @@ export default function Projects() {
         <a
           href="https://github.com/26june/nc-games-project"
           className="single-project"
-          target={"blank"}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <h2>NC HOUSE OF GAMES API</h2>
           <p>
@@ -21,7 +22,8 @@ export default function Projects() {
         <a
           href="https://github.com/26june/nc-games-project-frontend"
           className="single-project"
-          target={"blank"}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <h2>NC HOUSE OF GAMES FRONTEND</h2>
           <p>
@@ -30,9 +32,10 @@ export default function Projects() {
           </p>
         </a>
         <a
-          href="https://github.com/26june/walkerrr"
+          href="https://northcoders.com/projects/jan-2023/walkerrr"
           className="single-project"
-          target={"blank"}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <h2>WALKERRR</h2>
           <p>
@@ -45,7 +48,8 @@ export default function Projects() {
         <a
           href="https://github.com/26june/test-wordleV2"
           className="single-project"
-          target={"blank"}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <h2>WORDLE CLONE</h2>
           <p>A clone of the popular game Wordle created for React practice.</p>

@@ -69,13 +69,21 @@ export default function Home() {
           <h3>JUNIOR SOFTWARE DEVELOPER</h3>
           <ul>
             <li>
-              <a href="https://github.com/26june">
+              <a
+                href="https://github.com/26june"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-github"></i>
               </a>
             </li>
 
             <li>
-              <a href="https://www.linkedin.com/in/gj-abordo-044345208/">
+              <a
+                href="https://www.linkedin.com/in/gj-abordo-044345208/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
             </li>
