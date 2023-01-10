@@ -6,3 +6,8 @@
   position: relative;
   font-family: "Montserrat", sans-serif;
 }
+
+::selection {
+  color: white;
+  background: #ff6f61;
+}
