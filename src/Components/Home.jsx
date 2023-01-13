@@ -37,11 +37,9 @@ export default function Home() {
       for (let i = 0; i < dots.nb; i++) {
         var dot = dots.array[i];
         if (dot.y < 0 || dot.y > canvas.height) {
-          dot.vx = dot.vx;
           dot.vy = -dot.vy;
         } else if (dot.x < 0 || dot.x > canvas.width) {
           dot.vx = -dot.vx;
-          dot.vy = dot.vy;
         }
         dot.x += dot.vx;
         dot.y += dot.vy;
