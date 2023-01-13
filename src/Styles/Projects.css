@@ -35,6 +35,7 @@
   align-items: center;
   text-align: center;
   aspect-ratio: 1/1;
+  gap: 8px;
 }
 
 .Projects p {
