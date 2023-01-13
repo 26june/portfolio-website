@@ -61,9 +61,19 @@
 }
 
 .right-content ul {
-  list-style-type: none;
-  position: relative;
   display: inline-block;
+  list-style-position: inside;
+}
+
+.right-content ul li {
+  display: inline;
+}
+
+.right-content ul li:after {
+  content: " ";
+  letter-spacing: 1em;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xMkMEa+wAAAAnSURBVBhXY/Dz89MA4sNA/B9Ka4AEYQIwfBgkiCwAxjhVopnppwEApxQqhnyQ+VkAAAAASUVORK5CYII=)
+    center center no-repeat;
 }
 
 .left-content ul {
